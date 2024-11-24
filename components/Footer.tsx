@@ -111,7 +111,7 @@ const Footer = () => {
             <div className="w-full max-w-[560px] max-[991px]:mr-4 max-[991px]:flex-initial max-[767px]:">
               <div className=" flex items-center gap-3 mb-4">
                 <Image
-                  src={"/campusCodeImages/FootercampusCodeLogo.png"}
+                  src={"/campusCodeImages/footerCampusCodeWhite.png"}
                   width={180}
                   height={0}
                   className="text-black w-auto"

@@ -12,10 +12,10 @@ import GoogleAdSense from "@/components/AdSense/GoogleAdSense";
 const inter = Roboto({ weight: '400', subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SoarX",
+  title: "Campus Code",
   description:
-    "SoarX is a nationwide community dedicated to empowering students through impactful events, sessions, and hackathons.",
-  metadataBase: new URL("https://www.soarx.tech/"),
+    "Campus Code is a nationwide community dedicated to empowering students through impactful events, sessions, and hackathons.",
+  metadataBase: new URL("https://www.campuscode.in/"),
 };
 
 export default function RootLayout({
