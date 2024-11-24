@@ -84,7 +84,7 @@ const LeftHeroDlc = () => {
                 }}
               />
               <div className="fl-ic gap-4">
-                <span className=" text-primaryPurple text-3xl font-semibold">
+                <span className=" text-[#4BA492] text-3xl font-semibold">
                   ₹99
                 </span>
                 <del className=" text-shark text-xl">₹399</del>
@@ -96,7 +96,7 @@ const LeftHeroDlc = () => {
                 {pythonCourseHero.map((course) => (
                   <div key={course} className="fl-ic gap-2">
                     <span>
-                      <AiFillThunderbolt size="28" fill="#9241D4" />
+                      <AiFillThunderbolt size="28" fill="#4BA492" />
                     </span>
                     <p className=" text-black dark:text-white">{course}</p>
                   </div>
@@ -104,7 +104,7 @@ const LeftHeroDlc = () => {
               </div>
               <button
                 onClick={handleNotify}
-                className="mt-4 signInbut hover:bg-purple-800 ease-in-out transition-all duration-300 w-full text-white  py-4 px-2 font-medium rounded-xl"
+                className="mt-4 signInbut hover:bg-[#256457] ease-in-out transition-all duration-300 w-full text-white  py-4 px-2 font-medium rounded-xl"
               >
               Enrollment Closed
               </button>

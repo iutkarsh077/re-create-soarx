@@ -27,8 +27,9 @@ export default function ThemeSwitcher() {
     <Switch
       onClick={handleThemes}
       defaultSelected
+      // className="lightGreen"
       size="lg"
-      color="secondary"
+      color="success"
       thumbIcon={({ isSelected, className }) =>
         isSelected ? (
           <SunIcon className={className} />

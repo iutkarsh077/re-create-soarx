@@ -6,7 +6,7 @@ import { Fade as Hamburger } from "hamburger-react";
 import { usePathname, useRouter } from "next/navigation";
 // import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { Admin, User } from "@prisma/client";
-import HeaderLogo from "@/public/images/Soarx-transparent-logo.png";
+import HeaderLogo from "@/public/campusCodeImages/LogoOnNavbar.png";
 import HeaderDropdown from "./HeaderDropdown";
 import ButtonAuth from "./ButtonAuth";
 import ThemeSwitcher from "./DarkThemes";
@@ -34,7 +34,7 @@ const Header = ({ admin }: User) => {
                 src={HeaderLogo}
                 width={0}
                 height={0}
-                className="w-24 dark:filter dark:invert dark:hue-rotate-180"
+                className="w-24 h-12 dark:filter dark:invert dark:hue-rotate-180"
                 alt="Header Logo"
               />
             </div>
@@ -48,7 +48,7 @@ const Header = ({ admin }: User) => {
                 }
               >
                 <Link
-                  className="hover:text-primaryPurple hover:transition-all ease-in-out duration-300 p-2"
+                  className="hover:text-[#4BA492] hover:transition-all ease-in-out duration-300 p-2"
                   href="/"
                 >
                   Home
@@ -62,7 +62,7 @@ const Header = ({ admin }: User) => {
                     : "rounded-lg"
                 }
               >
-                <Link className="hover:text-primaryPurple p-2" href="/events" prefetch={true}>
+                <Link className="hover:text-[#4BA492] p-2" href="/events" prefetch={true}>
                   Events
                 </Link>
               </li>
@@ -89,7 +89,7 @@ const Header = ({ admin }: User) => {
                       : "rounded-lg"
                   }
                 >
-                  <Link className="hover:text-primaryPurple p-2" href="/admin">
+                  <Link className="hover:text-[#4BA492] p-2" href="/admin">
                     Admin
                   </Link>
                 </li>

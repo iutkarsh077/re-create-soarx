@@ -36,7 +36,7 @@ const Testimonial = () => {
       company: "Tech geek | Drone engineer",
       image: "/images/HarshitJindal.jpg",
       message:
-        "The events conducted by SoarX are free of cost, which is a great thing, helping students and showing them new career paths.",
+        "The events conducted by Campus Code are free of cost, which is a great thing, helping students and showing them new career paths.",
     },
     {
       name: "Rohit Sardana",
@@ -64,56 +64,56 @@ const Testimonial = () => {
       company: "Video Editor | Motion Graphics Designer",
       image: "/images/KunalKumar.jpg",
       message:
-        "Appreciate all the efforts and good work that SoarX has done for organizing such a revolutionizing initiative of The India Summer Lensathon.",
+        "Appreciate all the efforts and good work that Campus Code has done for organizing such a revolutionizing initiative of The India Summer Lensathon.",
     },
     {
       name: "Naman Nagpal",
       company: "Software Developer @ Coforge",
       image: "/images/NamanNagpal.jpg",
       message:
-        "The impact of being a part of the SoarX Network extends far beyond the college premises. The exposure one gain opens doors to numerous opportunities in the industry.",
+        "The impact of being a part of the Campus Code Network extends far beyond the college premises. The exposure one gain opens doors to numerous opportunities in the industry.",
     },
     {
       name: "Siddhant Khurana",
       company: "Data Security Analyst, Mphasis",
       image: "/images/SidhantKhurana.jpg",
       message:
-        "SoarX Network helps people develop their skills which they usually can't develop during their academics. Learning with fun is what the SoarX offers.",
+        "Campus Code Network helps people develop their skills which they usually can't develop during their academics. Learning with fun is what the Campus Code offers.",
     },
     {
       name: "Soumili Mukherjee Tapadar",
       company: "Cloud DevOps Intern, Peacify",
       image: "/images/Soumili.jpg",
       message:
-        "SoarX Network has helped me come a long way from being a mentee to a mentor. The environment and support provided by them feel like home, highly recommended.",
+        "Campus Code Network has helped me come a long way from being a mentee to a mentor. The environment and support provided by them feel like home, highly recommended.",
     },
     {
       name: "Gautam Makwana",
       company: "Security Researcher",
       image: "/images/Gautam.jpg",
       message:
-        "Whether you are a beginner or an experienced professional, SoarX provides a platform to learn, grow, and connect with a vibrant community of tech enthusiasts.",
+        "Whether you are a beginner or an experienced professional, Campus Code provides a platform to learn, grow, and connect with a vibrant community of tech enthusiasts.",
     },
     {
       name: "Mary Priyanka",
       company: "Chief of Community, C3 Universe",
       image: "/images/Mary.jpg",
       message:
-        "Working with the SoarX Network at a job fair organized by C3 Community was fantastic! Their professionalism and enthusiasm made the collaboration enjoyable.",
+        "Working with the Campus Code Network at a job fair organized by C3 Community was fantastic! Their professionalism and enthusiasm made the collaboration enjoyable.",
     },
     {
       name: "Avni Srivastava",
       company: "Program Manager, Psylief",
       image: "/images/Avni.jpg",
       message:
-        "Each workshop or event organized by the SoarX Network is a resounding success because of its meticulous planning and flawless execution.",
+        "Each workshop or event organized by the Campus Code Network is a resounding success because of its meticulous planning and flawless execution.",
     },
     {
       name: "Jasnoor Singh",
       company: "XR Developer",
       image: "/images/jasnoor.jpg",
       message:
-        "Being a part of the SoarX Network has been an inspiring journey, and I look forward to continuing our collaborative efforts in empowering aspiring XR developers.",
+        "Being a part of the Campus Code Network has been an inspiring journey, and I look forward to continuing our collaborative efforts in empowering aspiring XR developers.",
     },
     {
       name: "Punit Jain",
@@ -127,7 +127,7 @@ const Testimonial = () => {
       company: "XR Developer",
       image: "/images/shivani.jpg",
       message:
-        "SoarX is an incredible initiative that I am pleased to be associated with. Their enthusiasm, supportive environment, and knowledgeable team have helped build the AR ecosystem in India.",
+        "Campus Code is an incredible initiative that I am pleased to be associated with. Their enthusiasm, supportive environment, and knowledgeable team have helped build the AR ecosystem in India.",
     },
     {
       name: "Itasha Modi",
@@ -247,7 +247,7 @@ const Testimonial = () => {
           ))}
                 </h2>{" "}
                 <p className="mt-4 text-light text-xl">
-                  Lets Hear from Those Who have Soared with SoarX!
+                  Lets Hear from Those Who have Soared with Campus Code!
                 </p>
               </div>
 
@@ -267,12 +267,12 @@ const Testimonial = () => {
                 >
                   {testimonials.map((testimonial, index) => (
                     <SwiperSlide key={index}>
-                      <div className="bg-[#8d4ac449] rounded-lg p-6 shadow-md sm:p-8 lg:p-12">
+                      <div className="bg-[#9ce7d8] dark:bg-[#4BA492] rounded-lg p-6 shadow-md sm:p-8 lg:p-12">
                         <div>
                           <div className="mt-2 leading-relaxed">
                             <div className="w-12 h-12 ">
                               <Image
-                                className="w-full object-cover rounded-full border-2 border-indigo-400"
+                                className="w-full object-cover rounded-full border-2 border-[#4BA492]"
                                 src={testimonial.image}
                                 alt="testimonial"
                                 width={100}

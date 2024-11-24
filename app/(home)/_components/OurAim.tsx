@@ -9,17 +9,17 @@ const data = [
   },
   {
     title: "Skill Development",
-    desc: " At SoarX, we are dedicated to facilitating skill development among students through workshops, training sessions, and hands-on experiences.",
+    desc: " At Campus Code, we are dedicated to facilitating skill development among students through workshops, training sessions, and hands-on experiences.",
     image: "/images/competence.png",
   },
   {
     title: "Promote Innovation",
-    desc: "One of our key aims at SoarX is to promote innovation   among students through hackathons, innovation challenges, and entrepreneurial initiatives.",
+    desc: "One of our key aims at Campus Code is to promote innovation   among students through hackathons, innovation challenges, and entrepreneurial initiatives.",
     image: "/images/logical-thinking.png",
   },
   {
     title: "Drive Social Impact", 
-    desc: " Social impact is at the heart of our mission at SoarX. We aim to empower students to drive positive change in their communities and beyond.",
+    desc: " Social impact is at the heart of our mission at Campus Code. We aim to empower students to drive positive change in their communities and beyond.",
     image: "/images/save-the-world.png",
   },
 ];
@@ -48,10 +48,10 @@ const OurAim = () => {
                 <h2 className="mb-4  leading-relaxed font-bold text-[35px] sm:text-[40px]  lg:text-[60px] ">
                   Rise Together, Soar Higher
                   {/* <br />
-                  <span className="text-primary">SoarX</span> */}
+                  <span className="text-primary">Campus Code</span> */}
                 </h2>
                 <p className="text-gray-500 text-[20px]  lg:text-[30px] ">
-                Traditional education often falls short in preparing students for the demands of the corporate world. Thats where SoarX steps in. We bridge the gap between academia and real-world application, offering upskilling initiatives to ensure students are well-prepared for challenges ahead.
+                Traditional education often falls short in preparing students for the demands of the corporate world. Thats where Campus Code steps in. We bridge the gap between academia and real-world application, offering upskilling initiatives to ensure students are well-prepared for challenges ahead.
                 </p>
               </div>
             </div>
@@ -64,7 +64,7 @@ const OurAim = () => {
             {data?.map((e, index) => (
               <div
                 key={index}
-                className={`group cursor-pointer relative transition hover:z-[1]  hover:shadow-2xl hover:text-[#9241d4] hover:shadow-gray-600/40`}
+                className={`group cursor-pointer relative transition hover:z-[1]  hover:shadow-2xl hover:text-[#4BA492] hover:shadow-gray-600/40`}
               >
                 <div className="relative space-y-8 py-12 p-8">
                   <Image
@@ -76,7 +76,7 @@ const OurAim = () => {
                     height={512}
                   />
                   <div className="space-y-2">
-                    <h5 className="text-lg font-semibold   transition group-hover:text-[#9241d4]">
+                    <h5 className="text-lg font-semibold   transition group-hover:text-[#4BA492]">
                       {e?.title}
                     </h5>
                     <p className="text-sm">{e?.desc}</p>

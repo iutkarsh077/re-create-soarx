@@ -10,8 +10,8 @@ import '../../globals.css';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "5 Days Bootcamp by SoarX",
-  description: "Our Python Bootcamp is designed to provide an immersive learning experience in Java programming. This bootcamp will help you learn Java from scratch and build a strong foundation in programming.",
+  title: "5 Days Bootcamp by Campus Code",
+  description: "Our Python Bootcamp is designed to provide an immersive learning experience in python programming. This bootcamp will help you learn Python from scratch and build a strong foundation in programming.",
   // icons: '/images/icon.png',
   keywords: ["Python", "Course", "DSA", "Bootcamp", "Maang", "programming"],
   openGraph: {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const JavaBootcamp = () => {
   return (
     <>
-      <div className="sm:pl-[4%] pt-32 min-h-[50vh] myfonts fl-ic bg-gradient-to-b from-purple-500 to-white  dark:bg-gradient-to-b  dark:from-[#9241d4] dark:to-black">
+      <div className="sm:pl-[4%] pt-32 min-h-[50vh] myfonts fl-ic bg-gradient-to-b from-[#4BA492] to-white  dark:bg-gradient-to-b  dark:from-[#4BA492] dark:to-black">
         <LeftHeroDlc />
       </div>
       <section className="lg:grid lg:grid-cols-3 relative py-4">

@@ -113,7 +113,7 @@ const InitiativesDropdown = () => {
             </Link>
           </li>
             <hr />
-          <li>
+          {/* <li>
             <Link
               href="/salesforce-pioneers"
               className="block px-4 py-2 md:hover:text-primaryPurple"
@@ -123,7 +123,7 @@ const InitiativesDropdown = () => {
                 <span className="text-2xl text-white">Salesforce Training Program</span>
               </p>
             </Link>
-          </li>
+          </li> */}
 
         </ul>
       )}
