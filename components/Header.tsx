@@ -123,7 +123,7 @@ const Header = ({ admin }: User) => {
                 }
               >
                 <Link
-                  className="md:hover:text-primaryPurple hover:transition-all ease-in-out duration-300 p-2"
+                  className="md:hover:text-[#4BA492] hover:transition-all ease-in-out duration-300 p-2"
                   href="/"
                 >
                   Home
@@ -138,7 +138,7 @@ const Header = ({ admin }: User) => {
                 }
               >
                 <Link
-                  className="md:hover:text-primaryPurple p-2"
+                  className="md:hover:text-[#4BA492] p-2"
                   href="/events"
                   prefetch={true}
                 >
@@ -176,7 +176,7 @@ const Header = ({ admin }: User) => {
                   }
                 >
                   <Link
-                    className="md:hover:text-primaryPurple p-2"
+                    className="md:hover:text-[#4BA492] p-2"
                     href="/admin"
                   >
                     Admin

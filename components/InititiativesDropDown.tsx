@@ -29,7 +29,7 @@ const InitiativesDropdown = () => {
   };
 
   return (
-    <div ref={dropdownRef} className="relative w-full z-50 dark:text-white">
+    <div ref={dropdownRef} className="relative w-full z-50 dark:text-white border-none">
       <button
         onClick={toggleDropdown}
         onMouseEnter={() => setHovered(true)}
@@ -47,7 +47,7 @@ const InitiativesDropdown = () => {
       </button>
       {/* bg-[#570a95] */}
       {isOpen && (
-        <ul className="absolute bg-custom rounded-lg shadow-lg mt-2">
+        <ul className="absolute bg-[#4BA492] border-none   rounded-lg shadow-lg mt-2">
           {/* <li>
             <Link
               href="/dsa-live-classes"
@@ -104,7 +104,7 @@ const InitiativesDropdown = () => {
           <li>
             <Link
               href="/python-bootcamp"
-              className="block px-4 py-2 md:hover:text-primaryPurple"
+              className="block px-4 py-2 md:hover:text-primaryPurple border-none"
             >
               <p className="flex items-center gap-x-3 text-2xl">
               <FaPython size={24} className="text-white"/>
