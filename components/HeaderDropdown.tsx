@@ -35,12 +35,12 @@ const dsa = [
     code: "/python-bootcamp",
     image: <FaPython size={24}/>,
   },
-  {
-    name: "2.5 Month Salesforce Training Program",
-    desc: "Salesforce's powerful CRM platform",
-    code: "/salesforce-pioneers",
-    image: <FaSalesforce size={24}/>,
-  }
+  // {
+  //   name: "2.5 Month Salesforce Training Program",
+  //   desc: "Salesforce's powerful CRM platform",
+  //   code: "/salesforce-pioneers",
+  //   image: <FaSalesforce size={24}/>,
+  // }
 ];
 
 const HeaderDropdown = () => {
@@ -65,7 +65,7 @@ const HeaderDropdown = () => {
         <div className="relative flex items-center gap-2 hover:cursor-pointer">
           <p
             className={cn("select-none truncate", {
-              "text-primaryPurple": hovered,
+              "text-[#4BA492]": hovered,
             })}
           >
             Initiatives
@@ -118,7 +118,7 @@ const HeaderDropdown = () => {
                     className={cn(
                       "  transition-all ease-in-out duration-200 text-sm",
                       {
-                        "text-primaryPurple": pathname.includes(d.code),
+                        "text-[#4BA492]": pathname.includes(d.code),
                       }
                     )}
                   >

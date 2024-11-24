@@ -35,7 +35,7 @@ const FloatingHero = () => {
             {...floatingHeroMotionProps}
           >
             <div className="fl-ic gap-4">
-              <span className="text-3xl font-semibold text-primaryPurple">
+              <span className="text-3xl font-semibold text-[#4BA492]">
                 ₹99
               </span>
               <del className="text-shark text-2xl">₹399</del>
@@ -45,7 +45,7 @@ const FloatingHero = () => {
             </p>
             {courseDetailsHeroFloat.map((course, index) => (
               <p key={index} className="dark:text-white flex gap-x-3">
-                <AiFillThunderbolt size="24" fill="#9241D4" />
+                <AiFillThunderbolt size="24" fill="#4BA492" />
                 {course}
               </p>
             ))}

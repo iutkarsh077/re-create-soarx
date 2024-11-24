@@ -22,7 +22,7 @@ const HomeSlider = () => {
                 <Lottie animationData={groovyWalkAnimation} loop={true} />
               </div>
 
-              <div className="text-center text-[#7300d0] dark:text-[#9f32f8] cursor-pointer">
+              <div className="text-center text-[#4BA492] dark:text-[#4BA492] cursor-pointer">
                 {"Engage, Innovate, Elevate"
                   .split("")
                   .map((child, idx) => (
@@ -33,7 +33,7 @@ const HomeSlider = () => {
               </div>
             </div>
             <h1 className="sm:text-[50px] text-[35px]  leading-relaxed font-bold 2xl:text-[70px]  md:text-[60px] pt-3 ">
-              SoarX Network
+              CAMPUS CODE
             </h1>
             <p className="pt-5  text-[20px] lg:text-[25px] min-[1400px]:text-[35px] text-slate-500">
             A nationwide community committed to igniting the potential of students through engaging events, sessions, and hackathons. 

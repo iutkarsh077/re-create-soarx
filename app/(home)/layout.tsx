@@ -16,8 +16,8 @@ const HomeLayout = async ({ children }: HomeLayoutProps) => {
       <Header {...session?.user!} />
       <main className="">
         {/* Background circles */}
-        <div className="absolute top-10 left-5 w-52 h-52 bg-[#e474ff] -z-10 rounded-full max-sm:hidden opacity-30"></div>
-        <div className="absolute top-20 right-5 w-64 h-64 bg-[#9000ff] -z-10 rounded-full max-sm:hidden opacity-30 "></div>
+        <div className="absolute top-10 left-5 w-52 h-52 bg-[#7CCFB7] -z-10 rounded-full max-sm:hidden opacity-30"></div>
+        <div className="absolute top-20 right-5 w-64 h-64 bg-[#4BA492] -z-10 rounded-full max-sm:hidden opacity-30 "></div>
         {children}
       </main>
       <Footer />

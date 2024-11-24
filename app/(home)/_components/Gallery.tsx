@@ -91,7 +91,7 @@ function Gallery() {
 
   return (
     <section>
-      <div className="text-center text-[#7300d0] dark:text-[#9f32f8] cursor-pointer">
+      <div className="text-center text-[#4BA492] dark:text-[#4BA492] cursor-pointer">
         {"Wings of Inspiration".split("").map((child, idx) => (
           <span className={"hoverText text-[10px] sm:text-[30px] lg:text-[40px]"} key={idx}>
             {child}

@@ -27,7 +27,7 @@ const HomePage = async () => {
       <HomeSlider />
       <OurAim />
       <Events events={events!} />
-      <HomeJavaBootCamp/>
+      {/* <HomeJavaBootCamp/> */}
       <Partners />
       <Gallery/>
       <Testimonial />
