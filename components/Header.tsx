@@ -34,7 +34,7 @@ const Header = ({ admin }: User) => {
                 src={HeaderLogo}
                 width={0}
                 height={0}
-                className="w-auto h-12"
+                className="w-auto h-[52px]"
                 alt="Header Logo"
               />
             </div>
