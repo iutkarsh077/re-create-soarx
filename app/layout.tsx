@@ -25,8 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning={true}>
+    <html lang="en">
       <head>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </head>
       <body className="myfonts">
         <NextSSRPlugin
