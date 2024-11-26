@@ -79,6 +79,7 @@ const HomeSlider = () => {
                   height={0}
                   sizes="100vw"
                   className="banner-img w-full h-auto"
+                  priority={true}
                   alt="Banner"
                 />
               </SwiperSlide>
