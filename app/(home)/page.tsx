@@ -7,13 +7,13 @@ import Partners from "./_components/Partner";
 import Testimonial from "./_components/Testimonial";
 import Discord from "./_components/Discord";
 import NumbersThatMatter from "./_components/NumbersThatMatter";
-import { sendMail } from "@/lib/mail";
-import { getServerSession } from "next-auth";
+// import { sendMail } from "@/lib/mail";
+// import { getServerSession } from "next-auth";
 import Gallery from "./_components/Gallery";
-import ProfileSection from "./profile/_components/ProfileSection";
-import SummaryForm from "./profile/_components/_sub_components/SummaryForm";
-import EducationForm from "./profile/_components/_sub_components/EducationForm";
-import HomeJavaBootCamp from "@/components/Bootcamps/HomeJavaBootCamp";
+// import ProfileSection from "./profile/_components/ProfileSection";
+// import SummaryForm from "./profile/_components/_sub_components/SummaryForm";
+// import EducationForm from "./profile/_components/_sub_components/EducationForm";
+// import HomeJavaBootCamp from "@/components/Bootcamps/HomeJavaBootCamp";
 
 const HomePage = async () => {
   const Allevents = await getAllEvents();

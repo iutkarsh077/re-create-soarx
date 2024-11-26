@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   description:
     "Campus Code is a nationwide community dedicated to empowering students through impactful events, sessions, and hackathons.",
   metadataBase: new URL("https://www.campuscode.in/"),
+  
 };
 
 export default function RootLayout({
